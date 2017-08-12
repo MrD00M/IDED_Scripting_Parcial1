@@ -32,6 +32,7 @@ public class Base : MonoBehaviour
 
     public void AttackWithCatapult()
     {
+        catapult.Fire();
         Debug.Log("Used Attack with catapult");
     }
 
@@ -73,6 +74,7 @@ public class Base : MonoBehaviour
     {
         if (canAttack)
         {
+           
         }
     }
 }

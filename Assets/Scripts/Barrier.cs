@@ -27,10 +27,12 @@ public class Barrier : MonoBehaviour
 
     public void TakeDamage(RayBeam ray)
     {
+
     }
 
     public void TakeDamage(Projectile projectile)
     {
+        
     }
 
     // Use this for initialization
